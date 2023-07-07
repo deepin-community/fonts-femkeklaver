@@ -1,5 +1,59 @@
-template-repository (1.0-1) unstable; urgency=medium
+fonts-femkeklaver (1.0-4) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Use secure URI in Homepage field.
+  * Bump debhelper from old 12 to 13.
+  * Remove constraints unnecessary since buster (oldstable)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Gioele Barabucci ]
+  * d/control: Update standards version to 4.6.2, no changes needed
+  * d/s/lintian-overrides: Acknowledge intentional lack of watch file
+  * d/copyright: Update DEP-5 stanza format
+  * d/copyright: Update and relicense packaging to 0BSD (Closes: #1030840)
+
+ -- Gioele Barabucci <gioele@svario.it>  Thu, 09 Feb 2023 07:42:01 +0100
+
+fonts-femkeklaver (1.0-3) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Boyuan Yang ]
+  * debian/control:
+    + Bump Standards-Version to 4.4.1.
+    + Bump debhelper compat to v12.
+    + Update Vcs-* fields and use the one in Salsa fonts-team group.
+    - Drop transitional package ttf-femkeklaver. (Closes: #939204)
+
+  [ Gioele Barabucci ]
+  * Move package to "fonts" section. (Closes: #820360)
+
+ -- Boyuan Yang <byang@debian.org>  Thu, 03 Oct 2019 16:51:47 -0400
+
+fonts-femkeklaver (1.0-2) unstable; urgency=medium
+
+  * Prepare for new Debian version
+  * Update debian/copyright to follow copyright-format/1.0
+  * Format the CC-BY-SA-3 licence
+  * Remove package name from install file
+  * Ignore generated files in debian/
+  * Update compat to version 9
+  * Update font homepage
+  * Add Multi-Arch field to control
+  * Bump Standards-Version to 3.9.6 (no changes needed)
+  * Drop fontconfig from Recommends
+  * Use standard font path
+  * Adopt package (Closes: #804917)
+  * Update copyright information
+  * Add GPL short text
+  * Add Vcs-* fields
+  * Move details about the relicensing in the copyright file
+  * Extend description of the font style
+  * Rename package to fonts-femkeklaver
+
+ -- Gioele Barabucci <gioele@svario.it>  Tue, 17 Nov 2015 23:22:18 +0000
+
+ttf-femkeklaver (1.0-1) unstable; urgency=low
+
+  * first debian package (closes: #566550)
+
+ -- Leo Costela <costela@debian.org>  Sun, 10 Jan 2010 23:55:32 +0100

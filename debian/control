@@ -1,15 +1,20 @@
-Source: template-repository
-Section: unknown
+Source: fonts-femkeklaver
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Uploaders: Gioele Barabucci <gioele@svario.it>
+Section: fonts
 Priority: optional
-Maintainer: Tsic404 <liuheng@deepin.org>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.3
-Homepage: https://github.com/deepin-community/template-repository
-#Vcs-Browser: https://salsa.debian.org/debian/deepin-community-template-repository
-#Vcs-Git: https://salsa.debian.org/debian/deepin-community-template-repository.git
+Build-Depends: debhelper-compat (= 13)
+Rules-Requires-Root: no
+Standards-Version: 4.6.2
+Homepage: https://www.1001fonts.com/femkeklaver-font.html
+Vcs-Git: https://salsa.debian.org/fonts-team/fonts-femkeklaver.git
+Vcs-Browser: https://salsa.debian.org/fonts-team/fonts-femkeklaver
 
-Package: template-repository
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Package: fonts-femkeklaver
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: simple handwriting font
+ FemkeKlaver is a simple handwriting font with strong repeated tracing.
+ Its style resembles that used in illustrated diaries, with round
+ cursive small letters and outlined block capital letters.
